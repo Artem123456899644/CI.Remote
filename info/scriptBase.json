@@ -1,0 +1,24 @@
+{
+	"0": {
+			"name":     "botOptions",
+			"commands": [
+				{"name": "updateScriptBase", "send": "updateScriptBase"},
+				{"name": "checkUpdates",     "send": "checkUpdates"},
+				{"name": "restartBot",       "send": "rebootBot"},
+				{"name": "shutdownBot",      "send": "shutdownBot"},
+
+		]
+	},
+
+	
+	"1": {
+		"name":     "WOL",
+		"commands": [
+			{"name":"onScript", "send": "WOL_on" },
+			{"name":"ofScript", "send": "WOL_of" },
+			{"name":"wolPc1",   "send": "WOL_pc1"},
+			{"name":"wolServer-1",   "send": "WOL_pc2"}
+		]
+	}
+	
+}

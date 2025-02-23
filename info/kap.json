@@ -1,0 +1,28 @@
+{
+    "mainBot": {
+        "key": "<Ключ бота>",
+        "userID": "<id владельца>",
+        "userNick": "<ник владельца>"
+    },
+    "YaDisk": {
+        "key" : "<ключ для диска>",
+        "dirSRC": "CI.Remote.Scripts",
+        "dirML": "CI.Remote.Modules",
+        "dirC": "CI.Remote.Core"
+    },
+    "MainCore": {
+        "check": 21600,
+        "Use_Bot": true,
+
+        "AUINM": true,
+        "update_Scripts": true,
+        "update_Modules": true,
+        "update_core": true,
+
+        "logs": "info/logs.json",
+        "core": "core.py",
+        "scripts": "scripts",
+        "modules": "mainModule",
+        "info": "info"
+    }
+}
