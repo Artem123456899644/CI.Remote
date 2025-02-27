@@ -24,7 +24,6 @@ class MainBot:
         self.router = None
         self.is_running = False
 
-        # Подключаем все необходимые методы
         
         
     async def startBot(self):
