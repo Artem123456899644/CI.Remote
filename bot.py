@@ -32,7 +32,7 @@ class MainBot:
         self.router = Router()
         self.dispatcher.include_router(self.router)
 
-        await self.menu.start()  # Здесь запускаем меню
+        await self.menu.start()  
         self.menu = TelegramMenu(self.bot, self.dispatcher, self.router, self.scriptBase)
         self.is_running = True
         await self.dispatcher.start_polling(self.bot)
