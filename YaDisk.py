@@ -11,7 +11,7 @@ class YaDisk:
     def loadInfo(filename):
         absPath = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', filename)
         with open(absPath, 'r', encoding='utf-8') as file:
-            info = json5.load(file)['YaDisk']  # Используем json5, как во второй версии
+            info = json5.load(file)['YaDisk']  
             return {
                 "key": info["key"],
                 "dirScripts": info["dirSRC"],
